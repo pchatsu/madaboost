@@ -107,6 +107,7 @@ private:
     double weightLabelSum_;
     double positiveWeightSum_;
     double negativeWeightSum_;
+    std::vector<double> madaboostEvalValues_;
 };
 
 #endif
